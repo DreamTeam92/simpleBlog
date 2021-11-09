@@ -39,7 +39,8 @@
     </article>
         <a class="load">Load more stories...</a>
   </main>
-<iframe id="callbell-iframe" allowfullscreen="" frameborder="0" scrolling="no" style="position: fixed; bottom: 0px; backface-visibility: hidden; right: 0px; left: initial; width: 108px; height: 108px; top: initial; z-index: 2147483647;">
+<iframe id="callbell-iframe" allowfullscreen="" frameborder="0" scrolling="no" style="position: fixed; bottom: 0px; backface-visibility: hidden; right: 0px; left: initial; width: 108px; height: 108px; top: initial; z-index: 2147483647;"></iframe>
+  <body>
   <div id="widget-root">
     <div class="callbell-wrapper">
       <div class="callbell-container_welcome " style="opacity: 0; transform: translateX(-30px) translateZ(0px);">
@@ -60,11 +61,18 @@
         <div class="callbell-container_logo callbell-container_logo_with-image">
           <img src="https://static.callbell.eu/uploads/widget_configuration/brand_image/152630/qr_ymp.jpg">
         </div>
-	
+        <div style="opacity: 0; transform: translateY(5px) translateZ(0px);">
+          <small class="callbell-container_powered-by">
+            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="#ecc94b" stroke="#ecc94b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+            <span>by</span>
+            <a href="https://www.callbell.eu/?utm_source=yourmassage.pro/&amp;utm_medium=web-widget" target="_blank">Callbell</a>
+          </small>
+        </div>
       </div>
     </div>
   </div>
-	
   <style>
     #fb-root {
       transition: opacity .5s ease-in-out;
@@ -228,6 +236,6 @@
   </script>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=WeakSet%2CObject.assign%2CObject.values%2CArray.prototype.find%2CPromise%2Cfetch%2CArray.from"></script>
   <script src="https://dash.callbell.eu/packs/js/widget_entry.js"></script>
-	</iframe>
+</body>
 </body>
 </html>
